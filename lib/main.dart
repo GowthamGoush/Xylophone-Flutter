@@ -11,7 +11,7 @@ class XylophoneApp extends StatefulWidget {
   _XylophoneAppState createState() => _XylophoneAppState();
 }
 
-void keyAudio(int keyNumber) {
+void keyAudio(int keyNumber) { // Provides haptic feedback on each keypress
   AudioCache keySound = AudioCache();
   keySound.play('assets_note$keyNumber.wav');
 }
