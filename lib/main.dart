@@ -16,7 +16,7 @@ void keyAudio(int keyNumber) { // Provides haptic feedback on each keypress
   keySound.play('assets_note$keyNumber.wav');
 }
 
-Expanded buildKey(Color color, int keyNumber) {
+Expanded buildKey(Color color, int keyNumber) { // each key is associated to one of the audio files using its key value.
   return Expanded(
       child: OutlinedButton(
     child: Container(
