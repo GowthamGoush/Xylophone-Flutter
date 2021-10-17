@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 void main() {
-  runApp(XylophoneApp());
+  runApp(XylophoneApp());   // Opens the app on call 
 }
 
 class XylophoneApp extends StatefulWidget {
