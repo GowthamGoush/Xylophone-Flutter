@@ -28,7 +28,8 @@ Expanded buildKey(Color color, int keyNumber) {
   ));
 }
 
-class _XylophoneAppState extends State<XylophoneApp> { // building a stateful widget
+class _XylophoneAppState extends State<XylophoneApp> { // Creates a state of the widget 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
