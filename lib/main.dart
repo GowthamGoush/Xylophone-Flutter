@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; // imports the package material.dart
 import 'package:audioplayers/audioplayers.dart';
 
 void main() {
