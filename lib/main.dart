@@ -1,6 +1,7 @@
+import 'package:audioplayers/audioplayers.dart'; // imports the package audioplayers.dart 
 import 'package:flutter/material.dart'; // imports the package material.dart
 import 'package:flutter/cupertino.dart'; // imports the package cupertino.dart
-import 'package:audioplayers/audioplayers.dart';
+
 
 void main() {
   runApp(XylophoneApp());   // Opens the app on call 
